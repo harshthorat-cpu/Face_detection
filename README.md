@@ -15,38 +15,35 @@ This project implements face detection using OpenCV's Haar Cascade classifier, a
 -------------
 ## Installation
 1. Clone the repository
-
-'''
+```  
 
 git clone [github.com](https://github.com/harshthorat-cpu/Face_detection.git)
 cd Face_detection
 
-'''
+```  
 
 2. Create a virtual environment
 
-'''
+```  
 
 python -m venv venv
 source venv/bin/activate
-
-'''
+```  
 
 3. Install dependencies
 
-'''
+```  
 
 pip install opencv-python
 
-'''
+```  
 
 ### Run the file
 
-'''
+```  
 
 python face_detection.py
-
-'''
+```  
 
 ## How it work's
 The project uses OpenCV's pre-trained Haar Cascade classifier (haarcascade_frontalface_default.xml) to detect frontal faces. The cascade classifier works by:
