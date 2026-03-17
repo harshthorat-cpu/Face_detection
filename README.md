@@ -1,19 +1,28 @@
-# Face_detection
+# Face Detection
 This project implements a computer vision system capable of identifying and locating human faces within a digital image or a live video stream. By utilizing the OpenCV (Open Source Computer Vision Library), the system draws bounding boxes around detected faces in real-time, providing a foundation for tasks like facial recognition 
- -----
-## Overview
+
+# Overview
+
 This project implements face detection using OpenCV's Haar Cascade classifier, a machine learning-based approach that uses a cascade of simple features to detect faces efficiently. The application can process both static images and live webcam feeds.
------------
-## Features
+
+
+# Features
+
 + Real-time face detection from webcam
 + Draws bounding boxes around detected faces
 + Lightweight and fast processing
-----------
+
+---------
 ## Requirement
+
 + Python 3.X
 + opencv
+
 -------------
+
 ## Installation
+
+
 1. Clone the repository
 ```  
 
@@ -53,7 +62,9 @@ The project uses OpenCV's pre-trained Haar Cascade classifier (haarcascade_front
 + Applying a series of simple feature detectors
 + Returning bounding box coordinates for detected faces
 
+
+
+
 ## Acknowledgement
 + [opencv.org](https://opencv.org/) for the computer vision library
 + Haar Cascade classifiers originally developed by Viola and Jones
-
