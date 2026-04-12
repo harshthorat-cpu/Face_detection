@@ -12,10 +12,6 @@ while True:
         blurred = cv.GaussianBlur(face_roi,(151,151),0)
         _img[y:y+h, x:x+w] = blurred
         cv.imshow('face',_img)
-
-     
-
-
      
      key = cv.waitKey(30) & 0xff
      if key == 27:
